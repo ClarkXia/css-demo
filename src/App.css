@@ -13,6 +13,12 @@
   }
 }
 
+.next-step-arrow[dir='rtl'] .next-step-item:before {
+  border: 16px solid transparent;
+  border: var(--step-arrow-item-border-width, 16px) solid transparent;
+  border-right-color: transparent;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
